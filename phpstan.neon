@@ -1,0 +1,20 @@
+includes:
+
+    - phpstan-baseline.neon
+    
+parameters:
+    level: 6
+    paths:
+        - ./
+    excludePaths:
+        - inc/template-functions.php
+        - inc/template-tags.php   
+        - template-parts/content/
+        - template-parts/layout/
+        - js/
+        - languages/
+        - vendor/
+        - src/
+        - node_scripts/
+        - node_modules/
+    ignoreErrors:
